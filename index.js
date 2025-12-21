@@ -1,9 +1,18 @@
 // PACKAGES: CORE | EXTERNAL | FILE
 
 const fs = require("fs");
-const moment = require("moment");
+const calculate = require("./calculate");
 
-console.log(module);
+calculate(20, 30);
 
-const currentTime = moment().format("HH:mm:ss");
-console.log("currentTime:", currentTime);
+/*
+ 
+GIT COMMANDS:
+  git init
+  git status
+
+  git add .
+  git status
+  git commit -m "feat/fix: Here comes message"
+
+*/
