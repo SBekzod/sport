@@ -18,5 +18,6 @@ GIT COMMANDS:
   - git remote
   - git remote add origin https  
   - git push origin master
+  - git clone https
 
 */
