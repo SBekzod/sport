@@ -1,9 +1,7 @@
-console.log("Hello World!");
-// PACKAGES: CORE EXTERNAL FILE
+// PACKAGE FILE
 
-const fs = require("fs");
+const calculate = require("./calculate");
 const moment = require("moment");
 
-const data = fs.readFileSync("./message.txt", "utf8");
-const time = moment().format("HH:mm:ss");
-console.log(data, time);
+const c = calculate(3, 5);
+console.log("c value:", c);
