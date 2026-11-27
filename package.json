@@ -7,7 +7,13 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "test": "echo && exit 1"
+  },
+  "dependencies": {
+    "moment": "^2.31.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
